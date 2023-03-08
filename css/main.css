@@ -1,0 +1,39 @@
+
+
+
+.button-36:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+    .button-36 {
+        padding: 0 2.6rem;
+    }
+}
+
+form input,
+#Tasks input {
+    border-radius: 10px;
+    border: 0;
+    color: rgb(242, 236, 224);
+    outline: none;
+    font-weight: 500;
+}
+
+#Tasks input {
+    background-color: rgba(33, 33, 33, 0);
+}
+
+#image {
+    width: 40%;
+    height: 200px;
+}
+
+@media only screen and (max-width: 990px) {
+    #image {
+        width: 82%;
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+}
